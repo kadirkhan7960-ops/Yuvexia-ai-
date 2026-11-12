@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="hi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b1020">
+  <title>YUVEXIA AI — आपका AI साथी</title>
+  <meta name="description" content="YUVEXIA AI — चैट, लेखन, अनुवाद और पढ़ाई के लिए आपका AI साथी।">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#"><span class="brand-mark">Y</span><span>YUVEXIA <b>AI</b></span></a>
+    <span class="lang">भारत के लिए बनाया गया 🇮🇳</span>
+  </header>
+  <main>
+    <section class="hero">
+      <div class="eyebrow">YOUR EVERYDAY AI WORKSPACE</div>
+      <h1>आपका AI साथी।<br><span>हर काम के लिए।</span></h1>
+      <p>लिखें, पूछें, अनुवाद करें और नए विचार पाएँ — एक ही जगह।</p>
+      <a class="primary" href="#chat">AI से बात करें <span>↗</span></a>
+      <div class="note">AI चैट कनेक्शन · जवाब के लिए इंटरनेट आवश्यक है</div>
+    </section>
+
+    <section class="chat-card" id="chat">
+      <div class="card-head"><div><i></i> YUVEXIA AI</div><span id="chatStatus">कनेक्शन तैयार</span></div>
+      <div class="messages" id="messages" aria-live="polite">
+        <div class="bubble bot">नमस्ते! 👋 मैं YUVEXIA AI हूँ। आप हिंदी या English में कुछ भी पूछ सकते हैं।</div>
+      </div>
+      <form id="chatForm">
+        <input id="prompt" type="text" placeholder="अपना सवाल यहाँ लिखें..." autocomplete="off" required>
+        <button id="sendBtn" type="submit" aria-label="Send">➤</button>
+      </form>
+      <p class="disclaimer">आपका संदेश सुरक्षित सर्वर के माध्यम से AI सेवा तक भेजा जाएगा। API key वेबसाइट के कोड में नहीं रखी जाती।</p>
+    </section>
+
+    <section class="tools">
+      <div class="section-title"><span>एक जगह, कई काम</span><h2>आपके काम के AI टूल</h2></div>
+      <div class="grid">
+        <article class="tool"><div class="icon">✍️</div><h3>Writing Assistant</h3><p>ईमेल, पोस्ट और नए आइडिया लिखने में मदद।</p></article>
+        <article class="tool"><div class="icon">🌐</div><h3>Translator</h3><p>अलग-अलग भाषाओं के बीच अनुवाद।</p></article>
+        <article class="tool"><div class="icon">📄</div><h3>PDF Assistant</h3><p>दस्तावेज़ समझने और सार बनाने में सहायता।</p></article>
+        <article class="tool"><div class="icon">🎓</div><h3>Study Helper</h3><p>पढ़ाई, नोट्स और विषय समझने में सहायता।</p></article>
+      </div>
+    </section>
+    <footer>© 2026 YUVEXIA AI · बनाया जा रहा है भारत से 🇮🇳</footer>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
